@@ -30,8 +30,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Input/>
-        <TextBlock />
+        <Input labelName="Name" ourClass='RoW' />
+        <Input labelName="Age" />
+        <TextBlock text="Something" />
         <a
           className="App-link"
           href="https://reactjs.org"

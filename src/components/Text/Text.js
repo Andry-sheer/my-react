@@ -6,10 +6,18 @@
 
 import { Component } from 'react';
 
+import './Text.css';
+
+// const Name = 'Text';
+
 class TextBlock extends Component {
+
     render () {
-      const Name = 'Text';
-      return <div>{Name}</div>
+      const { text } = this.props;
+
+      // const Name = 'Text';
+      return <div className='text'>{text}</div>
+      // return <div className='text'>{Name} {text}</div>
     }
 }
 

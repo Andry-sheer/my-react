@@ -31,11 +31,11 @@
 .App-link-google {
   color: #61dafb;
   margin-top: 10px;
-
+  text-decoration: none;
 }
 
-.App-link-google:active{
-    color: brown;
+.App-link-google:hover{
+    color: yellow;
   }
 
 @keyframes App-logo-spin {
